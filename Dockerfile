@@ -16,6 +16,6 @@ VOLUME /var/lib/mysql
 #->COPY docker-entrypoint.sh /entrypoint.sh
 #->ENTRYPOINT ["/entrypoint.sh"]
 
-#MariaDB port
+#MariaDB port 3306
 EXPOSE 3306
 CMD ["mysqld"]

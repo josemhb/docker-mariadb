@@ -9,12 +9,12 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys CBCB082A1BB943DB \
   && apt-get update \
   && DEBIAN_FRONTEND=noninteractive apt-get install -y --force-yes mariadb-server-5.5 \
   && apt-get clean
-ADD config /config
+
+# Config some parameters
+ADD my.cnf /etc/mysql/conf.d/my.cnf
+
 #Attach volume for persistent data
 VOLUME /var/lib/mysql
-
-#->COPY docker-entrypoint.sh /entrypoint.sh
-#->ENTRYPOINT ["/entrypoint.sh"]
 
 #MariaDB port 3306
 EXPOSE 3306

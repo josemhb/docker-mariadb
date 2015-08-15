@@ -18,4 +18,4 @@ VOLUME /var/lib/mysql
 
 #MariaDB port 3306
 EXPOSE 3306
-CMD ["mysqld"]
+CMD ["mysqld.bin"]

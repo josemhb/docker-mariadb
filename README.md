@@ -1,4 +1,5 @@
 Introduction
+
 This howto guide in the deploy the MariaDB on Ubuntu 14.04
 Setting up MariaDB
 Step 1: Setting up

@@ -1,9 +1,6 @@
 Introduction
 ============
-This howto guide in the deploy the MariaDB on Ubuntu 14.04
-Step 1: Setting up
-# docker-mariadb
-MariaDB Ubuntu 14.04
+This docker deploy the MariaDB 5.5 on Ubuntu 14.04
 
 Example usage:
 --------------

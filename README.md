@@ -1,11 +1,12 @@
 Introduction
-
+============
 This howto guide in the deploy the MariaDB on Ubuntu 14.04
 Step 1: Setting up
 # docker-mariadb
 MariaDB Ubuntu 14.04
 
 Example usage:
+--------------
 $ docker run -d -p 3306:3306 -e MARIADB_ROOT_PASSWORD=pass@word01 josemhb/mariadb
 Environment variables
 

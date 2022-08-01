@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Jose Manuel Hernandez (josemhb@gmail.com)
+MAINTAINER Jose Manuel Hernandez
 ENV MARIADB_DB NONE
 ENV MARIADB_USER docker
 
